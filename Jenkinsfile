@@ -3,19 +3,13 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Build Docker Images') {
             steps {
                 sh 'docker compose build'
             }
         }
 
-        stage('Deploy Application') {
+        stage('Deploy Containers') {
             steps {
                 sh 'docker compose up -d'
             }
@@ -26,6 +20,5 @@ pipeline {
                 sh 'docker ps'
             }
         }
-
     }
 }
