@@ -8,10 +8,7 @@ echo "Current Directory:"
 pwd
 
 echo "Stopping old containers..."
-docker compose down
-
-echo "Building Docker images..."
-docker compose build
+docker compose down || true
 
 echo "Starting containers..."
 docker compose up -d
