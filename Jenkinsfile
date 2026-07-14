@@ -18,6 +18,12 @@ pipeline {
 
         stage('Deploy Application') {
             steps {
+                sh '''
+cat > .env <<EOF
+MONGO_URI=mongodb+srv://anshupriya4748_db_user:anshupriya2004@cluster0anshu.etj421u.mongodb.net/watchlist?retryWrites=true&w=majority&appName=Cluster0Anshu
+PORT=5000
+EOF
+'''
                 sh 'chmod +x scripts/jenkins-deploy.sh'
                 sh './scripts/jenkins-deploy.sh'
             }
@@ -39,5 +45,3 @@ pipeline {
         }
     }
 }
-
-
