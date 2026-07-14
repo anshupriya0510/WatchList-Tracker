@@ -3,22 +3,39 @@ pipeline {
 
     stages {
 
-        stage('Build Docker Images') {
+        stage('Checkout Source') {
             steps {
-                sh 'docker compose build'
+                checkout scm
             }
         }
 
-        stage('Deploy Containers') {
+        stage('Verify Docker') {
             steps {
-                sh 'docker compose up -d'
+                sh 'docker --version'
+                sh 'docker compose version'
             }
         }
 
-        stage('Verify Deployment') {
+        stage('Deploy Application') {
             steps {
-                sh 'docker ps'
+                sh 'chmod +x scripts/jenkins-deploy.sh'
+                sh './scripts/jenkins-deploy.sh'
             }
+        }
+
+    }
+
+    post {
+        success {
+            echo '🎉 Deployment Successful!'
+        }
+
+        failure {
+            echo '❌ Deployment Failed!'
+        }
+
+        always {
+            sh 'docker ps || true'
         }
     }
 }
