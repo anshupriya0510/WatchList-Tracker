@@ -6,8 +6,6 @@ echo "===== Jenkins Deployment Started ====="
 
 cd /home/ec2-user/WatchList-Tracker
 
-echo "Pulling latest code..."
-git pull origin main
 
 echo "Pulling latest Docker images..."
 docker compose pull
