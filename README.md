@@ -2,12 +2,14 @@
 
 <p align="center">
 
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-blue?style=for-the-badge&logo=githubactions)
-![Jenkins](https://img.shields.io/badge/Jenkins-CD-red?style=for-the-badge&logo=jenkins)
-![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker)
-![Docker Hub](https://img.shields.io/badge/Docker_Hub-Registry-2496ED?style=for-the-badge&logo=docker)
-![AWS EC2](https://img.shields.io/badge/AWS-EC2-FF9900?style=for-the-badge&logo=amazonaws)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120301" src="https://github.com/user-attachments/assets/33289092-c49a-4dc4-94d1-62fee5115025" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120330" src="https://github.com/user-attachments/assets/cd63e9ee-ba9d-49ad-a7af-cde3c2f586e1" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120358" src="https://github.com/user-attachments/assets/eb79f540-e1c2-4897-a09e-d93588d1d20e" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120436" src="https://github.com/user-attachments/assets/85d243b7-e67c-4f0f-b485-d07328988b02" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120547" src="https://github.com/user-attachments/assets/167720a8-db18-4f75-ad17-9aa5b1084c97" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120728" src="https://github.com/user-attachments/assets/49e9da63-47c5-4a26-ba66-4eb75528d166" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120823" src="https://github.com/user-attachments/assets/a98cb36d-8f15-4147-a729-6254248a7388" />
+
 
 </p>
 
