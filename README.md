@@ -233,7 +233,8 @@ anshupriya4748/watchlist-tracker-frontend
 
 ## AWS EC2 Instance
 
-<img width="1920" height="879" alt="Screenshot 2026-07-15 120728" src="https://github.com/user-attachments/assets/21e75b3e-bcae-4a5a-abca-a0ca44de4009" />
+<img width="1920" height="842" alt="Screenshot 2026-07-15 120728" src="https://github.com/user-attachments/assets/8fe5ad9c-bb99-424b-b12c-af8e4e201c60" />
+
 
 
 ---
