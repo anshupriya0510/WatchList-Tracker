@@ -1,8 +1,6 @@
 services:
   backend:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: anshupriya4748/watchlist-tracker-backend:latest
     container_name: backend
     ports:
       - "5000:5000"
@@ -13,9 +11,7 @@ services:
       - watchlist-network
 
   frontend:
-    build:
-      context: ./client
-      dockerfile: Dockerfile
+    image: anshupriya4748/watchlist-tracker-frontend:latest
     container_name: frontend
     depends_on:
       - backend
