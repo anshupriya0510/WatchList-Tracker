@@ -2,14 +2,12 @@
 
 <p align="center">
 
-<img width="1920" height="1020" alt="Screenshot 2026-07-15 120301" src="https://github.com/user-attachments/assets/33289092-c49a-4dc4-94d1-62fee5115025" />
-<img width="1920" height="1020" alt="Screenshot 2026-07-15 120330" src="https://github.com/user-attachments/assets/cd63e9ee-ba9d-49ad-a7af-cde3c2f586e1" />
-<img width="1920" height="1020" alt="Screenshot 2026-07-15 120358" src="https://github.com/user-attachments/assets/eb79f540-e1c2-4897-a09e-d93588d1d20e" />
-<img width="1920" height="1020" alt="Screenshot 2026-07-15 120436" src="https://github.com/user-attachments/assets/85d243b7-e67c-4f0f-b485-d07328988b02" />
-<img width="1920" height="1020" alt="Screenshot 2026-07-15 120547" src="https://github.com/user-attachments/assets/167720a8-db18-4f75-ad17-9aa5b1084c97" />
-<img width="1920" height="1020" alt="Screenshot 2026-07-15 120728" src="https://github.com/user-attachments/assets/49e9da63-47c5-4a26-ba66-4eb75528d166" />
-<img width="1920" height="1020" alt="Screenshot 2026-07-15 120823" src="https://github.com/user-attachments/assets/a98cb36d-8f15-4147-a729-6254248a7388" />
-
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-blue?style=for-the-badge&logo=githubactions)
+![Jenkins](https://img.shields.io/badge/Jenkins-CD-red?style=for-the-badge&logo=jenkins)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker)
+![Docker Hub](https://img.shields.io/badge/Docker_Hub-Registry-2496ED?style=for-the-badge&logo=docker)
+![AWS EC2](https://img.shields.io/badge/AWS-EC2-FF9900?style=for-the-badge&logo=amazonaws)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)
 
 </p>
 
@@ -200,43 +198,50 @@ anshupriya4748/watchlist-tracker-frontend
 
 ## GitHub Repository
 
-![GitHub Repository](screenshots/github.png)
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120301" src="https://github.com/user-attachments/assets/d1207a20-82b5-419f-a68f-175172a9c2d4" />
+
 
 ---
 
 ## GitHub Actions
 
-![GitHub Actions](screenshots/github-actions.png)
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120330" src="https://github.com/user-attachments/assets/86d01bba-9da0-4d92-a955-f86969f60594" />
+
 
 ---
 
 ## Jenkins Dashboard
 
-![Jenkins Dashboard](screenshots/jenkins-dashboard.png)
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120358" src="https://github.com/user-attachments/assets/25c4f05d-8c22-4ebc-81cf-cec9be05978a" />
+
 
 ---
 
 ## Successful Jenkins Deployment
 
-![Jenkins Success](screenshots/jenkins-success.png)
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120436" src="https://github.com/user-attachments/assets/bc4e85f7-8c48-4865-a3aa-fda0007e0df3" />
+
 
 ---
 
 ## Docker Hub Images
 
-![Docker Hub](screenshots/dockerhub.png)
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120547" src="https://github.com/user-attachments/assets/4ea440a8-ab50-41d7-b883-86f03e5589a7" />
+
 
 ---
 
 ## AWS EC2 Instance
 
-![AWS EC2](screenshots/ec2.png)
+<img width="1920" height="879" alt="Screenshot 2026-07-15 120728" src="https://github.com/user-attachments/assets/21e75b3e-bcae-4a5a-abca-a0ca44de4009" />
+
 
 ---
 
 ## Live Application
 
-![Application](screenshots/application.png)
+<img width="1920" height="1020" alt="Screenshot 2026-07-15 120823" src="https://github.com/user-attachments/assets/2d35a5b4-13b6-4c72-9919-e7605e087679" />
+
 
 ---
 
@@ -250,19 +255,6 @@ git clone git@github.com:anshupriya0510/WatchList-Tracker.git
 cd WatchList-Tracker
 ```
 
-## Start Application
-
-```bash
-docker compose up -d
-```
-
-Application:
-
-```text
-http://<EC2-PUBLIC-IP>
-```
-
----
 
 # 📈 Future Improvements
 
@@ -336,11 +328,6 @@ https://github.com/anshupriya0510
 
 https://hub.docker.com/u/anshupriya4748
 
-### LinkedIn
-
-*(Add your LinkedIn profile URL here.)*
-
----
 
 # ⭐ If you like this project
 
